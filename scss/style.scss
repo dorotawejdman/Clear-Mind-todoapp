@@ -1,0 +1,23 @@
+//MAIN SCSS
+//Variables: colors, fonts
+@import "variables";
+//Reset: inputs
+@import "reset_form";
+//Elements style + main container style
+@import "basic";
+//Top section and Add section
+@import "top_sections";
+//To do and archival lists
+@import "list_section";
+
+//TO DO:
+// - dodać w JS zeby thick pojawiał się po najechaniu albo kliknięciu, a zadanie przenosiło się do done task po cwhili czasu
+// - usunąć rok z wypisania daty przy zadaniu
+// - dodać że znaczek z usuwaniem zadania pojawia się z boku, po najechaniu na zadanie
+// - zrobić coś zeby plusik był wysrodkowany wertykalnie względen buttona
+// - dostosować czcionkę do rozmiaru okna, vw lub zmieniac skokowo z media queries
+// - MEDIA QERIES:
+// - ok. 850px, done tasks wędruję pod to do list
+// - ew. poprawic pozycjonowanie naglowkow itp.
+// - Dodać taki feature ze jak się wydluza lista zadań, to polowa grafiki jest na dole strony
+// - rozwiązac problemy ze to-do button i add-button się jajkują po zwęzeniu okna

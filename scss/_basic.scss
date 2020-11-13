@@ -1,0 +1,138 @@
+.bg-img{
+    z-index: -1;
+    position: fixed;
+    
+}
+.top-img{
+    top:0;
+    left:0;
+}
+.bottom-img{
+    bottom:0;
+    left:0;
+}
+body{
+    //background-image: url('back3.jpg');
+    //background-image: url("../images/Projekt+cienie.svg");
+    //background-image: url('Projekt+cienie+ustawienie.svg');
+    //background-size: cover;
+    background-color: $bg-beige;
+    font-family:$main-font;
+    font-size: 16px;
+    color: $mywhite;
+    z-index: 0;
+}
+
+p,h1,h2,h3,h4,h5{
+    padding: 0px;
+    margin: 10px 0px;
+}
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 200;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.35rem;
+}
+p{
+    font-size: 1.1rem;
+    &.date-tag{
+        font-size: 1.05rem;
+    }
+}
+
+button{
+    font-size: 100%;
+    font-family: inherit;
+    border:0;
+    padding:0;
+    outline:none;
+    background-color: $mywhite;
+}
+button[type="submit"]{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0.5em;
+}
+input{
+    
+    background-image: none;
+    padding: 0 14px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline:none;
+    
+}
+
+input[type="text"],#in-date{
+    background-color: transparent;
+    border: 1px solid $mywhite;
+    border-radius: 9px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    height: 40px;
+    padding: 0 10px;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    border-radius: 50%;
+    background-color: $mywhite;
+    padding: 0;
+    margin-left: 10px;
+    &:checked {
+        background: $gray;
+      }
+    &.delete{
+        border:none;
+        background-color: rgba(0, 0, 0,0.2);
+        width: 18px;
+        height: 18px;
+        //display: none;
+    }
+    //&.archive{}
+}
+.alert{
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+    
+}
+.warning{
+    background-color: rgb(131, 66, 64);
+}
+.info{
+    background-color: rgb(100, 99, 96);
+}
+
+
+//nie pamietam co to moze przyda sie do naczka tick
+// #do-task[type="checkbox"]:after{
+//     border-radius: 50%;
+//     background-color: lawngreen;
+// }
+
+#container{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+}

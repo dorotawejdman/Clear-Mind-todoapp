@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Clear Mind</title>
+</head>
+<body>
+    <img src="images/Projekt_dol.svg" class="bg-img top-img">
+    <img src="images/Projekt_gora.svg" class="bg-img bottom-img">
+    <div id="container">
+
+        <div id="top-section">
+            <h1>Clear Mind</h1>
+            <h2>To do list app will help you clear your mind...</h2>
+        </div>
+        
+
+        <div id="add-section">
+            <div id="add-content">
+                <h4>Add new task</h4>
+                <input type="text" id="in-desc">
+                <input type="date" id="in-date">
+                <button type="submit" id='confirm'>+</button>
+            </div>
+        </div>
+
+        <div id="list">
+
+            <div class="container-half" id="left">
+                <h3>TO DO LIST</h3>
+                <div class="task">
+                    <div>
+                        <div class="do-it"><img src="images/thick.png" alt="" ></div>
+                        <p>B'day gift for dad</p>
+                    </div>
+                    <div>
+                        <p class="date-tag">16:00 17 Oct 2020</p>
+                        <div class="check-div">
+                            <input type="checkbox" name="" class="delete remove-task">
+                            <i class="fas fa-times checkbox-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="task">
+                    <div>
+                        <input type="checkbox" name="" id="do-task">
+                        <p>Homework for english</p>
+                    </div>
+                    <div>
+                        <p class="date-tag">13:34 15 Oct 2020</p>
+                        <div class="check-div">
+                            <input type="checkbox" name="" class="delete remove-task">
+                            <i class="fas fa-times checkbox-icon"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="task">
+                    <div>
+                        <input type="checkbox" name="" id="do-task">
+                        <p>Buy flowers for the party</p>
+                    </div>
+                    <div>
+                        <p class="date-tag">19:30 16 Oct 2020</p>
+                        <div class="check-div">
+                            <input type="checkbox" name="" class="delete remove-task">
+                            <i class="fas fa-times checkbox-icon"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+    
+            </div>
+    
+            <div class="container-half" id="right">
+                <h3>DONE TASKS</h3>
+    
+                <div class="task done-task">
+                    <p>Make shopping</p>
+                    <div class="check-div">
+                        <input type="checkbox" name="" class="delete remove-task">
+                        <i class="fas fa-times checkbox-icon"></i>
+                    </div>
+                    
+                </div>
+                <div class="task done-task">
+                    <p>Tidy my room</p>
+                    <div class="check-div">
+                        <input type="checkbox" name="" class="delete remove-task">
+                        <i class="fas fa-times checkbox-icon"></i>
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+        
+
+
+    </div>
+
+
+    <!-- <script src="main.js"></script> -->
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/9c5fab55a2.js" crossorigin="anonymous"></script>
+</body>
+</html>

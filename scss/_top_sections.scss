@@ -1,0 +1,51 @@
+
+#top-section{
+    margin: 0 auto;
+    text-align: center;
+    
+    padding: 50px 0px 30px 0;
+    border-bottom: 0px solid black;
+}
+
+#add-section{
+    border-bottom: 0px solid rgb(240, 217, 217);
+    
+    padding: 30px 0px 30px 0;
+    margin: 0 auto;
+    text-align: center;
+
+    #add-content{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h4{
+        display: inline-block;
+    }
+    h4, button, input{
+        margin: 0 10px ;
+    }
+    button{
+        
+        border-radius: 50%;
+        width: 31px;
+        height: 31px;
+        color: $bg-beige;
+        font-size: 26px;
+        font-weight: 200;
+
+        &:hover{
+            width: 30px;
+            height: 30px;
+            background-color: $beige;
+            cursor: pointer;
+        }
+    }
+    input{
+        font-size: 1.15rem;
+    }
+    input[type="text"]{
+        width: 320px;
+    }
+}

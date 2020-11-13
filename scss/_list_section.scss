@@ -1,0 +1,105 @@
+
+#list{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+    
+    .container-half{
+        width: 36%;
+        min-height: 300px;
+        max-height: 1600px;
+        //overflow: scroll;
+        margin: 0 20px 20px 20px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+
+        h3{
+            
+            padding-bottom: 9px;
+        }
+    }
+
+    #left{
+        background-color: $mywhite;
+        .task{
+            background-color: $light-beige;
+        }
+        h3{
+            color: $light-beige;
+            //border-bottom: 1px solid $light-beige;
+        }
+    }
+
+    #right{
+        background-color: $mywhate-dark;
+
+        .task{
+            background-color: $bg-pink;
+        }
+        h3{
+            color: $bg-pink;
+            //border-bottom: 1px solid $bg-pink;
+        }
+    }
+
+    .task{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 2px 2px;   
+        margin: 12px 0px;
+        min-height: 35px;
+        //border: 1px solid $light-gray;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19), 0 7px 7px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        div{
+            display: inline;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            .do-it{
+                background-color: $mywhite;
+                border-radius:50%;
+                width: 15px;
+                height: 15px;
+                padding: 0;
+                margin-left: 10px;
+                
+                img{
+                    height:10px;
+                    text-align: center;
+                    margin: 0 auto;
+                    
+                    
+                }
+            
+            }
+
+        }
+        p{
+            padding: 0 10px;
+            text-align: left;
+        }
+
+        //DELETE
+//.delete{
+    // display:none;
+//}
+.check-div{
+    position: relative;
+    font-size: 8px;
+}
+.checkbox-icon{
+    position: absolute;
+    z-index: 2;
+    left: 16px;
+    top: 8px;
+    color: $mywhate-dark;
+}
+        
+    }
+
+}

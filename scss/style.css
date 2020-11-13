@@ -1,0 +1,332 @@
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border-radius: 0;
+  -webkit-appearance: none;
+  background-color: #fff;
+  color: #000;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
+
+.bg-img {
+  z-index: -1;
+  position: fixed;
+}
+
+.top-img {
+  top: 0;
+  left: 0;
+}
+
+.bottom-img {
+  bottom: 0;
+  left: 0;
+}
+
+body {
+  background-color: #ca9e67;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+  color: #f0e7d6;
+  z-index: 0;
+}
+
+p, h1, h2, h3, h4, h5 {
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.35rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+p.date-tag {
+  font-size: 1.05rem;
+}
+
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  outline: none;
+  background-color: #f0e7d6;
+}
+
+button[type="submit"] {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.5em;
+}
+
+input {
+  background-image: none;
+  padding: 0 14px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+
+input[type="text"], #in-date {
+  background-color: transparent;
+  border: 1px solid #f0e7d6;
+  border-radius: 9px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: white;
+  height: 40px;
+  padding: 0 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  border-radius: 50%;
+  background-color: #f0e7d6;
+  padding: 0;
+  margin-left: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background: #3d3737;
+}
+
+input[type="checkbox"].delete {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 18px;
+  height: 18px;
+}
+
+.alert {
+  height: 30px;
+  width: 300px;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 8px 0 0 0;
+}
+
+.warning {
+  background-color: #834240;
+}
+
+.info {
+  background-color: #646360;
+}
+
+#container {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#top-section {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0px 30px 0;
+  border-bottom: 0px solid black;
+}
+
+#add-section {
+  border-bottom: 0px solid #f0d9d9;
+  padding: 30px 0px 30px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#add-section #add-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#add-section h4 {
+  display: inline-block;
+}
+
+#add-section h4, #add-section button, #add-section input {
+  margin: 0 10px;
+}
+
+#add-section button {
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+  color: #ca9e67;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+#add-section button:hover {
+  width: 30px;
+  height: 30px;
+  background-color: #dccfc6;
+  cursor: pointer;
+}
+
+#add-section input {
+  font-size: 1.15rem;
+}
+
+#add-section input[type="text"] {
+  width: 320px;
+}
+
+#list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+#list .container-half {
+  width: 36%;
+  min-height: 300px;
+  max-height: 1600px;
+  margin: 0 20px 20px 20px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+          box-shadow: 0 10px 18px 0 rgba(0, 0, 0, 0.29), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+#list .container-half h3 {
+  padding-bottom: 9px;
+}
+
+#list #left {
+  background-color: #f0e7d6;
+}
+
+#list #left .task {
+  background-color: #d7a474;
+}
+
+#list #left h3 {
+  color: #d7a474;
+}
+
+#list #right {
+  background-color: #e3d4c0;
+}
+
+#list #right .task {
+  background-color: #bc8068;
+}
+
+#list #right h3 {
+  color: #bc8068;
+}
+
+#list .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 2px;
+  margin: 12px 0px;
+  min-height: 35px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19), 0 7px 7px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19), 0 7px 7px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+#list .task div {
+  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#list .task div .do-it {
+  background-color: #f0e7d6;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin-left: 10px;
+}
+
+#list .task div .do-it img {
+  height: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#list .task p {
+  padding: 0 10px;
+  text-align: left;
+}
+
+#list .task .check-div {
+  position: relative;
+  font-size: 8px;
+}
+
+#list .task .checkbox-icon {
+  position: absolute;
+  z-index: 2;
+  left: 16px;
+  top: 8px;
+  color: #e3d4c0;
+}
+/*# sourceMappingURL=style.css.map */

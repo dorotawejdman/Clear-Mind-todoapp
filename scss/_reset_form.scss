@@ -43,3 +43,19 @@ textarea, select, input[type="date"], input[type="datetime"], input[type="dateti
     vertical-align: middle;
 
     }
+
+
+    //RESET SELECT
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        -ms-appearance: none; 
+        border:none;
+        background-image: url('images/thick.png');
+    }
+    
+    select::-ms-expand {
+        display: none;
+    }

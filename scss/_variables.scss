@@ -10,6 +10,12 @@ $light-beige: rgb(215, 164, 116);
 $bg-beige: rgb(202, 158, 103);
 $bg-pink: rgb(188, 128, 104);
 
+//priorities
+$priority1:rgb(235, 190, 134);
+$priority2: $light-beige;
+$priority3:rgb(219, 127, 73); //highest priority color
+
+$input-height: 40px;
 $main-font:  Tahoma, Verdana, Segoe, sans-serif;
 //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 

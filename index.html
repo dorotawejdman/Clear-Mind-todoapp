@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/scss/style.css">
     <title>Clear Mind</title>
+
+
 </head>
 <body>
     <img src="images/Projekt_dol.svg" class="bg-img top-img">
@@ -22,6 +24,11 @@
                 <h4>Add new task</h4>
                 <input type="text" id="in-desc">
                 <input type="date" id="in-date">
+                <select class="custom-select" name="priority" id="priority-select" placeholder="priority">
+                    <option value="1" >1 (low)</option>
+                    <option value="2" selected="selected">2 (medium)</option>
+                    <option value="3" >3 (high)</option>
+                </select>
                 <button type="submit" id='confirm'>+</button>
             </div>
         </div>
@@ -37,10 +44,8 @@
                     </div>
                     <div>
                         <p class="date-tag">16:00 17 Oct 2020</p>
-                        <div class="check-div">
                             <input type="checkbox" name="" class="delete remove-task">
-                            <i class="fas fa-times checkbox-icon"></i>
-                        </div>
+                            
                     </div>
                 </div>
 
@@ -51,10 +56,8 @@
                     </div>
                     <div>
                         <p class="date-tag">13:34 15 Oct 2020</p>
-                        <div class="check-div">
-                            <input type="checkbox" name="" class="delete remove-task">
-                            <i class="fas fa-times checkbox-icon"></i>
-                        </div>
+                        <input type="checkbox" name="" class="delete remove-task">
+                         
                     </div>
                     
                 </div>
@@ -66,10 +69,7 @@
                     </div>
                     <div>
                         <p class="date-tag">19:30 16 Oct 2020</p>
-                        <div class="check-div">
-                            <input type="checkbox" name="" class="delete remove-task">
-                            <i class="fas fa-times checkbox-icon"></i>
-                        </div>
+                        <input type="checkbox" name="" class="delete remove-task">
                     </div>
                     
                 </div>
@@ -81,18 +81,14 @@
     
                 <div class="task done-task">
                     <p>Make shopping</p>
-                    <div class="check-div">
-                        <input type="checkbox" name="" class="delete remove-task">
-                        <i class="fas fa-times checkbox-icon"></i>
-                    </div>
+                    <input type="checkbox" name="" class="delete remove-task">
+                    
                     
                 </div>
                 <div class="task done-task">
                     <p>Tidy my room</p>
-                    <div class="check-div">
-                        <input type="checkbox" name="" class="delete remove-task">
-                        <i class="fas fa-times checkbox-icon"></i>
-                    </div>
+                    <input type="checkbox" name="" class="delete remove-task">
+                    
                 </div>
     
             </div>
@@ -107,5 +103,6 @@
     <!-- <script src="main.js"></script> -->
     <script src="app.js"></script>
     <script src="https://kit.fontawesome.com/9c5fab55a2.js" crossorigin="anonymous"></script>
+    <script src="select.js"></script>
 </body>
 </html>

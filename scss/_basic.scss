@@ -72,14 +72,14 @@ input{
     
 }
 
-input[type="text"],#in-date{
+input[type="text"],#in-date,select{
     background-color: transparent;
     border: 1px solid $mywhite;
     border-radius: 9px;
     font-family: inherit;
     font-size: 1rem;
     color: white;
-    height: 40px;
+    height: $input-height;
     padding: 0 10px;
 }
 ::-webkit-calendar-picker-indicator {
@@ -108,12 +108,20 @@ input[type="checkbox"]{
     }
     //&.archive{}
 }
+input[type='date']{
+    width: 160px;
+}
+select{
+    width: 120px;    
+}
+
 .alert{
     height: 30px;
     width: 300px;
     border-radius: 8px;
     margin: 0 auto;
     padding: 8px 0 0 0;
+    margin-bottom: 3px;
     
 }
 .warning{
@@ -136,3 +144,4 @@ input[type="checkbox"]{
     text-align: center;
 
 }
+

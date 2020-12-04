@@ -181,7 +181,7 @@ select {
 #top-section {
   margin: 0 auto;
   text-align: center;
-  padding: 50px 0px 30px 0;
+  padding: 70px 0px 10px 0;
   border-bottom: 0px solid black;
 }
 
@@ -240,6 +240,10 @@ select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -269,14 +273,13 @@ select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 65%;
   margin: 0 auto;
   color: #d7a474;
 }
@@ -396,7 +399,7 @@ select {
   color: #e3d4c0;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   #container {
     width: 90vw;
   }
@@ -406,29 +409,24 @@ select {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  #container #add-section #add-content input[type=date], #container #add-section #add-content select {
+  #container #add-section #add-content input[type=date], #container #add-section #add-content input[type=text], #container #add-section #add-content select, #container #add-section #add-content button, #container #add-section #add-content h4 {
     margin-top: 10px;
   }
   #container #add-section #add-content input[type=text] {
     width: 260px;
   }
-  #list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
-  }
   #list .container-half {
     margin: 0 10px 20px 10px;
-    width: 46%;
+    width: 60%;
   }
   #list #left .sorting {
     width: 100%;
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
+  }
+}
+
+@media (max-width: 700px) {
+  #list .container-half {
+    width: 80%;
   }
 }
 

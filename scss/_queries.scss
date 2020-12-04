@@ -1,9 +1,9 @@
-@media (max-width: 1500px){
+@media (max-width: 1000px){
     #container{
         width: 90vw;
         #add-section #add-content{
             flex-flow: row wrap;
-            input[type=date], select{
+            input[type=date], input[type=text], select, button, h4{
                 margin-top: 10px;
             }
             input[type=text]{
@@ -12,17 +12,25 @@
         }
     }
     #list{
-        display: flex;
-        justify-content: stretch;
         .container-half{
             margin: 0 10px 20px 10px;
-            width: 46%;
+            width: 60%;
         }
         #left{
             .sorting{
                 width: 100%;
-                justify-content: stretch;
+                // display: flex;
+                //justify-content: stretch;
+                
             }
+        }
+    }
+}
+@media (max-width: 700px){
+
+    #list{
+        .container-half{
+            width: 80%;
         }
     }
 }

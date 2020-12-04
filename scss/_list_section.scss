@@ -1,6 +1,7 @@
 
 #list{
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     margin: 20px;
     
@@ -25,9 +26,9 @@
         background-color: $mywhite;
         .sorting {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-flow: row wrap;
-            width: 65%;
+            //width: 65%;
             margin: 0 auto;
 
             

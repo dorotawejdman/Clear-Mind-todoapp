@@ -14,5 +14,6 @@ HTML - CSS - SASS - JavaScript
 I am still working on this project, to improve some functionalities...
 
 Visit my site and check its responsiveness!
+
 **Check it here ---->>>> [Clear Mind App](https://clear-mind.netlify.app/)** 
 

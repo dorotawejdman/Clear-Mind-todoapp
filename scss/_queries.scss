@@ -1,0 +1,28 @@
+@media (max-width: 1500px){
+    #container{
+        width: 90vw;
+        #add-section #add-content{
+            flex-flow: row wrap;
+            input[type=date], select{
+                margin-top: 10px;
+            }
+            input[type=text]{
+                width:260px;
+            }
+        }
+    }
+    #list{
+        display: flex;
+        justify-content: stretch;
+        .container-half{
+            margin: 0 10px 20px 10px;
+            width: 46%;
+        }
+        #left{
+            .sorting{
+                width: 100%;
+                justify-content: stretch;
+            }
+        }
+    }
+}

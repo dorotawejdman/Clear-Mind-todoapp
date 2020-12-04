@@ -143,6 +143,8 @@ input[type="checkbox"].delete {
   background-color: rgba(0, 0, 0, 0.2);
   width: 18px;
   height: 18px;
+  margin-right: 10px;
+  margin-left: 3px;
 }
 
 input[type='date'] {
@@ -263,6 +265,36 @@ select {
   background-color: #f0e7d6;
 }
 
+#list #left .sorting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 65%;
+  margin: 0 auto;
+  color: #d7a474;
+}
+
+#list #left .sorting .sort-p {
+  padding: 0 0;
+  margin: 2px 2px;
+}
+
+#list #left .sorting button {
+  margin: 2px;
+  padding: 5px 10px;
+  border: 1px solid #d7a474;
+  border-radius: 10px;
+  color: #d7a474;
+  background-color: ivory;
+}
+
 #list #left .task {
   background-color: #d7a474;
 }
@@ -276,7 +308,7 @@ select {
 }
 
 #list #left .priority-3 {
-  background-color: #db7f49;
+  background-color: #d4916a;
 }
 
 #list #left h3 {
@@ -362,6 +394,42 @@ select {
   left: 16px;
   top: 8px;
   color: #e3d4c0;
+}
+
+@media (max-width: 1500px) {
+  #container {
+    width: 90vw;
+  }
+  #container #add-section #add-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  #container #add-section #add-content input[type=date], #container #add-section #add-content select {
+    margin-top: 10px;
+  }
+  #container #add-section #add-content input[type=text] {
+    width: 260px;
+  }
+  #list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  #list .container-half {
+    margin: 0 10px 20px 10px;
+    width: 46%;
+  }
+  #list #left .sorting {
+    width: 100%;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
 }
 
 /* The container must be positioned relative: */

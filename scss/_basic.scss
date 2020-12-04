@@ -62,7 +62,7 @@ button[type="submit"]{
     line-height: 0.5em;
 }
 input{
-    
+
     background-image: none;
     padding: 0 14px;
     -webkit-box-shadow: none;
@@ -98,12 +98,15 @@ input[type="checkbox"]{
     margin-left: 10px;
     &:checked {
         background: $gray;
+        
       }
     &.delete{
         border:none;
         background-color: rgba(0, 0, 0,0.2);
         width: 18px;
         height: 18px;
+        margin-right: 10px;
+        margin-left: 3px;
         //display: none;
     }
     //&.archive{}

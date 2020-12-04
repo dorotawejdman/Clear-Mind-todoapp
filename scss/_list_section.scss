@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     margin: 20px;
-
+    
     
     .container-half{
         width: 36%;
@@ -23,9 +23,31 @@
 
     #left{
         background-color: $mywhite;
+        .sorting {
+            display: flex;
+            justify-content: space-between;
+            flex-flow: row wrap;
+            width: 65%;
+            margin: 0 auto;
+
+            
+            color: $light-beige;
+            .sort-p{
+                padding: 0 0;
+                margin: 2px 2px;
+            }
+            button{
+                margin: 2px;
+                padding: 5px 10px;
+                border: 1px solid $light-beige;
+                border-radius: 10px;
+                color: $light-beige;
+                background-color: ivory;
+            }
+        }
         .task{
             background-color: $light-beige;
-            //PRIORITIES
+           
         }
         .priority-1{
             background-color: $priority1;
@@ -83,11 +105,8 @@
                     text-align: center;
                     margin: 0 auto;
                     
-                    
                 }
-            
             }
-
         }
         p{
             padding: 0 10px;
@@ -95,21 +114,19 @@
         }
 
         //DELETE
-//.delete{
-    // display:none;
-//}
-.check-div{
-    position: relative;
-    font-size: 8px;
-}
-.checkbox-icon{
-    position: absolute;
-    z-index: 2;
-    left: 16px;
-    top: 8px;
-    color: $mywhate-dark;
-}
-        
+        //.delete{
+            // display:none;
+        //}
+        .check-div{
+            position: relative;
+            font-size: 8px;
+        }
+        .checkbox-icon{
+            position: absolute;
+            z-index: 2;
+            left: 16px;
+            top: 8px;
+            color: $mywhate-dark;
+        }
     }
-
 }

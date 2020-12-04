@@ -13,5 +13,5 @@ HTML - CSS - SASS - JavaScript
 
 I am still working on this project, to improve some functionalities...
 
-**Check it here-> [Clear Mind App](https://clear-mind.netlify.app/)** 
+**Check it here ---->>>> [Clear Mind App](https://clear-mind.netlify.app/)** 
 

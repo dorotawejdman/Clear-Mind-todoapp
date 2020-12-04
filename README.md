@@ -6,5 +6,5 @@ HTML - CSS - SASS - JavaScript
 
 Work in progress....
 
-Check it here -> [a link](clear-mind.netlify.app)
+Check it here -> [Clear Mind App](https://clear-mind.netlify.app/)
 

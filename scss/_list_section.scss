@@ -5,7 +5,6 @@
     justify-content: center;
     margin: 20px;
     
-    
     .container-half{
         width: 36%;
         min-height: 300px;
@@ -30,7 +29,6 @@
             flex-flow: row wrap;
             //width: 65%;
             margin: 0 auto;
-
             
             color: $light-beige;
             .sort-p{
@@ -43,7 +41,7 @@
                 border: 1px solid $light-beige;
                 border-radius: 10px;
                 color: $light-beige;
-                background-color: ivory;
+                background-color: $button-medium;
             }
         }
         .task{
@@ -72,7 +70,7 @@
             background-color: $bg-pink;
         }
         h3{
-            color: $bg-pink;
+            color: $light-beige;// $bg-pink;
             //border-bottom: 1px solid $bg-pink;
         }
     }

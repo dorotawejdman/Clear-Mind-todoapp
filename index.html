@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +9,15 @@
 
 </head>
 <body>
-    <img src="images/Projekt_dol.svg" class="bg-img top-img">
-    <img src="images/Projekt_gora.svg" class="bg-img bottom-img">
+    <div class="theme-change">
+        <label for="theme-btn" class="">Theme:</label>
+        <input id="theme-btn" class="theme" type="checkbox"></input>
+    </div>
+
+    <!-- <img src="images/Projekt_dol.svg" class="bg-img top-img">
+    <img src="images/Projekt_gora.svg" class="bg-img bottom-img"> -->
+    <img src="images/rude_top.svg" class="bg-img top-img">
+    <img src="images/rude_bottom.svg" class="bg-img bottom-img">
     <div id="container">
 
         <div id="top-section">
@@ -109,6 +116,7 @@
 
     <!-- <script src="main.js"></script> -->
     <script src="app.js"></script>
+    <script src="theme_switch.js"></script>
     <script src="https://kit.fontawesome.com/9c5fab55a2.js" crossorigin="anonymous"></script>
    
 </body>

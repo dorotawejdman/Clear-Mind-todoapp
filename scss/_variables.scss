@@ -1,4 +1,4 @@
-// COLORS
+//COLORS
 $gray: rgb(61, 55, 55);
 $light-gray: rgb(195, 189, 189);
 $mywhite: rgb(238, 231, 224);
@@ -14,6 +14,94 @@ $bg-pink: rgb(188, 128, 104);
 $priority1:rgb(235, 190, 134);
 $priority2: $light-beige;
 $priority3:rgb(212, 145, 106); //highest priority color
+
+//dark COLORS
+$gray: #3d3737;
+$light-gray: #c3bdbd;
+$mywhite: #eee7e0;
+$beige: #dccfc6;
+//Z projektu AI
+$mywhite: #bbbbbc;//? tlo left #85878C #bbbbbc
+$mywhate-dark: #a8a8a8; //tlo right 807E89 a8a8a8
+$light-beige: #F6EFED; //naglowek  to do list d3cec3
+$bg-beige: #262F44;
+$bg-pink: #515363; //zadania done tasks
+$button-medium: #9aa5a6;
+//priorities
+$priority1: #586275;
+$priority2: #434D60;
+$priority3: #323A4F; //highest priority color
+
+
+//rude COLORS
+$gray: #3d3737;
+$light-gray: #c3bdbd;
+$mywhite: #eee7e0;
+$beige: #dccfc6;
+//Z projektu AI
+$mywhite: rgba(237, 232, 223,0.33);//? tlo left #85878C #bbbbbc
+$mywhate-dark: rgba(237, 232, 223,0.33); //tlo right 807E89 a8a8a8
+$light-beige: #F6EFED; //naglowek  to do list d3cec3
+$bg-beige: #885D42;//ok
+$bg-pink: #493E35; //zadania done tasks
+$button-medium: #7a6a58;
+//priorities
+$priority1: #385459;
+$priority2: #163743;
+$priority3: #0B1F24; //highest priority color
+
+
+// // sass variable map 
+// $colors: (
+//     bg-beige: #ca9e68
+// );
+
+// // loop over each name, color
+// :root {
+//   // each item in color map
+//   @each $name, $color in $colors {
+//     --#{$name}: #{$color};
+//   }
+// }
+
+// // COLORS
+// $gray: rgb(61, 55, 55);
+// $light-gray: rgb(195, 189, 189);
+// $mywhite: rgb(238, 231, 224);
+// $beige: rgb(220, 207, 198);
+// //Z projektu AI
+// $mywhite: rgb(240, 231, 214);
+// $mywhate-dark: rgb(227, 212, 192);
+// $light-beige: rgb(215, 164, 116);
+// $bg-pink: rgb(188, 128, 104);
+
+// //priorities
+// $priority1:rgb(235, 190, 134);
+// $priority2: $light-beige;
+// $priority3:rgb(212, 145, 106); //highest priority color
+
+
+
+// .dark{
+//     //DARK COLORS
+//     $gray: rgb(189, 172, 172);
+//     $light-gray: rgb(78, 73, 73);
+//     $mywhite: rgb(41, 39, 38);
+//     $beige: rgb(100, 94, 90);
+//     //Z projektu AI
+//     $mywhite: rgb(65, 62, 58);
+//     $mywhate-dark: rgb(5, 5, 4);
+//     $light-beige: rgb(92, 72, 54);
+//     $bg-beige: rgb(149, 120, 85);
+//     $bg-pink: rgb(206, 139, 112);
+
+//     //priorities
+//     $priority1:rgb(235, 190, 134);
+//     $priority2: $light-beige;
+// }
+
+
+
 
 $input-height: 40px;
 $main-font:  Tahoma, Verdana, Segoe, sans-serif;

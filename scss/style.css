@@ -44,10 +44,10 @@ select::-ms-expand {
 }
 
 body {
-  background-color: #ca9e67;
+  background-color: #885D42;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 16px;
-  color: #f0e7d6;
+  color: #F6EFED;
   z-index: 0;
 }
 
@@ -88,7 +88,7 @@ button {
   border: 0;
   padding: 0;
   outline: none;
-  background-color: #f0e7d6;
+  background-color: rgba(237, 232, 223, 0.33);
 }
 
 button[type="submit"] {
@@ -107,7 +107,7 @@ input {
 
 input[type="text"], #in-date, select {
   background-color: transparent;
-  border: 1px solid #f0e7d6;
+  border: 1px solid rgba(237, 232, 223, 0.33);
   border-radius: 9px;
   font-family: inherit;
   font-size: 1rem;
@@ -129,7 +129,7 @@ input[type="checkbox"] {
   appearance: none;
   position: relative;
   border-radius: 50%;
-  background-color: #f0e7d6;
+  background-color: rgba(237, 232, 223, 0.33);
   padding: 0;
   margin-left: 10px;
 }
@@ -216,7 +216,7 @@ select {
   border-radius: 50%;
   width: 31px;
   height: 31px;
-  color: #ca9e67;
+  color: #885D42;
   font-size: 26px;
   font-weight: 200;
 }
@@ -266,7 +266,7 @@ select {
 }
 
 #list #left {
-  background-color: #f0e7d6;
+  background-color: rgba(237, 232, 223, 0.33);
 }
 
 #list #left .sorting {
@@ -281,7 +281,7 @@ select {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
   margin: 0 auto;
-  color: #d7a474;
+  color: #F6EFED;
 }
 
 #list #left .sorting .sort-p {
@@ -292,42 +292,42 @@ select {
 #list #left .sorting button {
   margin: 2px;
   padding: 5px 10px;
-  border: 1px solid #d7a474;
+  border: 1px solid #F6EFED;
   border-radius: 10px;
-  color: #d7a474;
-  background-color: ivory;
+  color: #F6EFED;
+  background-color: #7a6a58;
 }
 
 #list #left .task {
-  background-color: #d7a474;
+  background-color: #F6EFED;
 }
 
 #list #left .priority-1 {
-  background-color: #ebbe86;
+  background-color: #385459;
 }
 
 #list #left .priority-2 {
-  background-color: #d7a474;
+  background-color: #163743;
 }
 
 #list #left .priority-3 {
-  background-color: #d4916a;
+  background-color: #0B1F24;
 }
 
 #list #left h3 {
-  color: #d7a474;
+  color: #F6EFED;
 }
 
 #list #right {
-  background-color: #e3d4c0;
+  background-color: rgba(237, 232, 223, 0.33);
 }
 
 #list #right .task {
-  background-color: #bc8068;
+  background-color: #493E35;
 }
 
 #list #right h3 {
-  color: #bc8068;
+  color: #F6EFED;
 }
 
 #list .task {
@@ -367,7 +367,7 @@ select {
 }
 
 #list .task div .do-it {
-  background-color: #f0e7d6;
+  background-color: rgba(237, 232, 223, 0.33);
   border-radius: 50%;
   width: 15px;
   height: 15px;
@@ -396,7 +396,15 @@ select {
   z-index: 2;
   left: 16px;
   top: 8px;
-  color: #e3d4c0;
+  color: rgba(237, 232, 223, 0.33);
+}
+
+/* The switch - the box around the slider */
+.theme-change {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  z-index: 4;
 }
 
 @media (max-width: 1000px) {
